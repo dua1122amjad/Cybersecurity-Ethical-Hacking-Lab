@@ -58,8 +58,8 @@ The general lab architecture is structured as follows:
        |             |             |
        +-------------+-------------+
               Connectivity Tests
-
- ##  Example IP Configuration
+```
+### Example IP Configuration
 
 The lab uses the 10.0.0.0/24 network. Example addresses from the lab setup include:
 
