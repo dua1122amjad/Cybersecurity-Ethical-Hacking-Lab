@@ -75,7 +75,7 @@ The lab uses the 10.0.0.0/24 network. Example addresses from the lab setup inclu
 ### Step 1: Install 7-Zip & Setup VirtualBox
 7-Zip was installed to extract and manage downloaded virtual machine files. Oracle VirtualBox was installed as the virtualization platform. The Kali Linux VM (`kali-linux-2026.2-virtualbox-amd64`) was imported with 2048 MB RAM and 2 Processors allocated.
 
-![VirtualBox Setup]<img width="600" height="337" alt="Screenshot (90)" src="https://github.com/user-attachments/assets/b771d705-d6e5-459b-b2be-2aed5c11a48f" />
+<img width="600" height="337" alt="Screenshot (90)" src="https://github.com/user-attachments/assets/b771d705-d6e5-459b-b2be-2aed5c11a48f" />
 
 
 ---
