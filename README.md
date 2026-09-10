@@ -127,8 +127,8 @@ During the setup, if Internet connectivity issues occur with Kali Linux 2026.1 o
 
 ```bash
 sudo nmcli connection modify "eth0" ipv4.dad-timeout 0
-The setup also utilizes 10.0.0.1 as the gateway address if Internet connectivity requires static routing.
 ```
+The setup also utilizes 10.0.0.1 as the gateway address if Internet connectivity requires static routing.
 ##  Virtual Machine Snapshots
 
 Snapshots were created after configuring the virtual machines. Snapshots are useful in a cybersecurity lab because they allow the environment to be restored to a known working state after performing potentially disruptive experiments.
