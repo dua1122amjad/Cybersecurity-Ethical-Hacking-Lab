@@ -121,6 +121,62 @@ Tested internet reachability and NAT gateway routing inside Kali Linux by access
 A snapshot of the configured Kali Linux VM was created to provide a restore point before performing security experiments. The snapshot was named **`Kali setup`** with the description *"Setting up IP address"*.
 
  <img width="600" height="337" alt="Screenshot (98)" src="https://github.com/user-attachments/assets/b85871b1-12ac-41bd-9dae-60b53654d37f" />
+##  Kali Linux Connectivity Troubleshooting
 
+During the setup, if Internet connectivity issues occur with Kali Linux 2026.1 or later due to Duplicate Address Detection (DAD) timeouts, execute:
+
+```bash
+sudo nmcli connection modify "eth0" ipv4.dad-timeout 0
+The setup also utilizes 10.0.0.1 as the gateway address if Internet connectivity requires static routing.
+```
+##  Virtual Machine Snapshots
+
+Snapshots were created after configuring the virtual machines. Snapshots are useful in a cybersecurity lab because they allow the environment to be restored to a known working state after performing potentially disruptive experiments.
+
+Recommended snapshot points include:
+- Fresh OS installation
+- Network configuration completed
+- Kali Linux configured
+- Target machine configured
+- Pre-exploitation state
+##  Connectivity Testing
+
+Connectivity between the virtual machines is verified using ICMP echo requests:
+
+```bash
+ping 10.0.0.X
+```
+##  Skills Demonstrated
+
+This project demonstrates practical experience with:
+- VirtualBox and virtual machine deployment
+- Kali Linux and Windows virtual machines configuration
+- NAT Network configuration and IPv4 addressing
+- Basic network troubleshooting and interface commands (`ip a`, `nmcli`, `ping`)
+- VM snapshots and state persistence
+- Virtualized cybersecurity lab environment preparation
+- Ethical hacking environment setup
+  ##  Future Labs
+
+This environment can be extended for practical cybersecurity exercises such as:
+- Network reconnaissance
+- Vulnerability assessment
+- Web application security testing
+- Network security testing
+- Exploitation in controlled environments
+- Digital forensics exercises
+- Capture The Flag (CTF) challenges
+- Security monitoring and analysis
+
+*Additional offline virtual machines may be added for future CTF practical labs and challenges.*
+##  Disclaimer
+
+This repository is intended for educational and authorized cybersecurity testing only. All security testing should be performed only against systems and networks that you own or have explicit permission to test.
+## Author
+Dua Amjad
+Cybersecurity Enthusiast  (ID: Cybersecurity B083)
+Interested in Cybersecurity, Ethical Hacking, Networking
+## References
+Lab setup based on the provided Practical Lab Environment Setup for Pentesting, Ethical Hacking & Cybersecurity guide by NetworkWalks Academy.
 
 
