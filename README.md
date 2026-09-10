@@ -1,7 +1,7 @@
 # Cybersecurity-Ethical-Hacking-Lab
 Practical cybersecurity lab environment using VirtualBox, Kali Linux, Windows VMs, NAT networking, IP configuration, connectivity testing, and VM snapshots.
-# 🛡️ Cybersecurity & Ethical Hacking Lab Environment
-## 📌 Overview
+#  Cybersecurity & Ethical Hacking Lab Environment
+##  Overview
 
 This repository documents my hands-on setup of a practical Cybersecurity, Ethical Hacking, and Penetration Testing Lab Environment using virtual machines and VirtualBox.
 
@@ -9,7 +9,7 @@ The lab was created as an isolated environment for practicing cybersecurity conc
 
 The setup follows a two-phase approach covering the installation and configuration of VirtualBox, Kali Linux, Windows virtual machines, network configuration, IP addressing, connectivity testing, and VM snapshots.
 
-## 🎯 Lab Objectives
+##  Lab Objectives
 
 - Build an isolated cybersecurity practice environment.
 - Configure VirtualBox networking using a custom NAT Network.
@@ -22,7 +22,7 @@ The setup follows a two-phase approach covering the installation and configurati
 
 ---
 
-## 🛠️ Lab Environment & Specifications
+##  Lab Environment & Specifications
 
 ### Virtualization
 - **Hypervisor:** Oracle VirtualBox
@@ -39,7 +39,7 @@ The setup follows a two-phase approach covering the installation and configurati
 - **Configured IP Range:** `10.0.0.2` – `10.0.0.99`
 
 ---
-## 🌐 Network Topology
+##  Network Topology
 
 The general lab architecture is structured as follows:
 
@@ -58,7 +58,8 @@ The general lab architecture is structured as follows:
        |             |             |
        +-------------+-------------+
               Connectivity Tests
-  ### Example IP Configuration
+
+ ##  Example IP Configuration
 
 The lab uses the 10.0.0.0/24 network. Example addresses from the lab setup include:
 
