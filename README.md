@@ -84,7 +84,7 @@ The lab uses the 10.0.0.0/24 network. Example addresses from the lab setup inclu
 ### Step 2: Configure Custom NAT Network
 A custom NAT Network named `NatNetwork` was created in VirtualBox using the `10.0.0.0/24` IPv4 CIDR prefix with DHCP enabled.
 
-![NAT Network Configuration] <img width="600" height="337" alt="Screenshot (94)" src="https://github.com/user-attachments/assets/75f5c99f-f4ff-4f8c-9842-d44dccdfef51" />
+ <img width="600" height="337" alt="Screenshot (94)" src="https://github.com/user-attachments/assets/75f5c99f-f4ff-4f8c-9842-d44dccdfef51" />
 
 
 ---
@@ -96,7 +96,7 @@ Kali Linux was configured manually to communicate through the custom NAT Network
 - **Gateway:** `10.0.0.1`
 - **DNS Server:** `8.8.8.8`
 
-![Wired Connection Settings] <img width="600" height="337" alt="Screenshot (95)" src="https://github.com/user-attachments/assets/f33a6de7-6051-4bf7-b385-a0464832896b" />
+<img width="600" height="337" alt="Screenshot (95)" src="https://github.com/user-attachments/assets/f33a6de7-6051-4bf7-b385-a0464832896b" />
 
 
 ---
@@ -104,7 +104,7 @@ Kali Linux was configured manually to communicate through the custom NAT Network
 ### Step 4: Verify IP Interface Configuration
 Assigned IPv4 configurations were verified inside the Kali Linux terminal using `ip a`. The `eth0` network adapter successfully bound to `10.0.0.2/24`.
 
-![IP Configuration Verification]<img width="600" height="337" alt="Screenshot (96)" src="https://github.com/user-attachments/assets/74110e1a-7f6b-4464-b553-f46b4968f93e" />
+<img width="600" height="337" alt="Screenshot (96)" src="https://github.com/user-attachments/assets/74110e1a-7f6b-4464-b553-f46b4968f93e" />
 
 
 ---
@@ -112,7 +112,7 @@ Assigned IPv4 configurations were verified inside the Kali Linux terminal using 
 ### Step 5: Test Connectivity & Network Routing
 Tested internet reachability and NAT gateway routing inside Kali Linux by accessing external web destinations via the browser.
 
-![Connectivity Test] <img width="600" height="337" alt="Screenshot (97)" src="https://github.com/user-attachments/assets/614c996e-79e4-46c7-bf22-4b7200f28a02" />
+<img width="600" height="337" alt="Screenshot (97)" src="https://github.com/user-attachments/assets/614c996e-79e4-46c7-bf22-4b7200f28a02" />
 
 
 ---
@@ -120,7 +120,7 @@ Tested internet reachability and NAT gateway routing inside Kali Linux by access
 ### Step 6: Create VM Snapshot
 A snapshot of the configured Kali Linux VM was created to provide a restore point before performing security experiments. The snapshot was named **`Kali setup`** with the description *"Setting up IP address"*.
 
-![VirtualBox Snapshot] <img width="600" height="337" alt="Screenshot (98)" src="https://github.com/user-attachments/assets/b85871b1-12ac-41bd-9dae-60b53654d37f" />
+ <img width="600" height="337" alt="Screenshot (98)" src="https://github.com/user-attachments/assets/b85871b1-12ac-41bd-9dae-60b53654d37f" />
 
 
 
