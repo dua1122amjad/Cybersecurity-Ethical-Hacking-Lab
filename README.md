@@ -121,6 +121,7 @@ Tested internet reachability and NAT gateway routing inside Kali Linux by access
 A snapshot of the configured Kali Linux VM was created to provide a restore point before performing security experiments. The snapshot was named **`Kali setup`** with the description *"Setting up IP address"*.
 
  <img width="600" height="337" alt="Screenshot (98)" src="https://github.com/user-attachments/assets/b85871b1-12ac-41bd-9dae-60b53654d37f" />
+ 
 ##  Kali Linux Connectivity Troubleshooting
 
 During the setup, if Internet connectivity issues occur with Kali Linux 2026.1 or later due to Duplicate Address Detection (DAD) timeouts, execute:
